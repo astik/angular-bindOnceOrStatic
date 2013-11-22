@@ -5,7 +5,8 @@
     "angular": "~1.2.1",
     "angular-route": "~1.2.1",
     "json3": "~3.2.4",
-    "es5-shim": "~2.0.8"
+    "es5-shim": "~2.0.8",
+    "angular-bindOnceOrStatic": "~0.3.0"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.1",
