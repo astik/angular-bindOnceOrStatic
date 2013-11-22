@@ -1,0 +1,21 @@
+<div>
+	<h1>Test static and bindonce interpolation</h1>
+<!--
+  	<input ng-model="localizationFromCtrl.foobar" placeholder="[[[localization.foobar]]]" />
+  	<br />
+  	{{localizationFromCtrl.foobar}}
+  	<hr />
+  	<a title="[[[localization.foobar]]]" href="#">A link with a title attribute (hover me) (static version)</a>
+  	<br />
+  	<a title="{{localizationFromCtrl.foobar}}" href="#">A link with a title attribute (hover me) (dynamic version)</a>
+  	<hr />
+  	<span data-a-param="[[[lsocalization.foobar]]]">A span with a data-a-param attribute (static version)</span>
+  	<br />
+  	<span data-a-param="{{localizationFromCtrl.foobar}}">A span with a data-a-param attribute (dynamic version)</span>
+-->
+	<input data-ng-model="localizationFromCtrl.foobar" />
+	<hr />
+	<input placeholder="{{localizationFromCtrl.foobar}}" />
+	<input placeholder="[[localizationFromCtrl.foobar]]" />
+	<input placeholder="[[[localization.foobar]]]" />
+</div>
