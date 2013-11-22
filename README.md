@@ -69,6 +69,11 @@ It's been a while that I have this project in mind.
 Here is the Google+ thread that started the initial bootstrap :
 https://plus.google.com/117415782545013334199/posts/bABiT5aEEq5
 
+## What's next
+
+[] Find a better way to retrieve the initial $interpolateProvider
+[] Manage the binding outside attributes (in plain HTML content)
+
 ## Release History
 
 - 0.3.0 : initial version
