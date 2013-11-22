@@ -34,6 +34,13 @@ You'll need to add a module to your application :
 angular.module('mySuperApp', ["bindOnceOrStatic"]);
 ```
 
+### A new javascript file
+
+Add this script to your HTML file :
+```
+<script src="bower_components/angular-bindOnceOrStatic/dist/angular-bindOnceOrStatic-min.js"></script>
+```
+
 ### Binding without watcher
 
 We'll use ```[[foo.bar]]``` to do binding without watcher (kind of like bindonce does).
@@ -47,6 +54,15 @@ This project allow the use of a dictionary, defined outside any scope.
 We'll use ```[[[foo.bar]]]``` to do binding without watcher at compilation time.
 The directive will look into the ```boosDictionary``` service for a property ```foo```.
 
+If you want to use this feature, you'll need to add information to the dictionary :
+
+```
+angular.module('mySuperApp').config(function (boosDictionaryProvider) {
+  // localization is a service containing a subdirectory defined for mySuperApp
+  boosDictionaryProvider.add('localization');
+});
+```
+
 ## Release History
 
-- 0.1.0 : initial version
+- 0.3.0 : initial version
