@@ -26,7 +26,13 @@ It is something Angular developers are used to.
 
 So to make it clear, I want a tweak for the curly bracket notation =)
 
-2 tweaks :
+### A new module
+
+You'll need to add a module to your application :
+
+```
+angular.module('mySuperApp', ["bindOnceOrStatic"]);
+```
 
 ### Binding without watcher
 
