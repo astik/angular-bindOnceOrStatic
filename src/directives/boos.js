@@ -1,8 +1,8 @@
 'use strict';
 
 (function () {
-	var elements = [ 'span' ];
-	var attributes = [ 'title', 'placeholder' ];
+	var elements = [ 'span', 'div', 'a', 'form', 'input', 'legend', 'textarea', 'button', 'ul', 'ol', 'li' ];
+	var attributes = [];
 
 	var i18nDirectiveClosure = function (restrict, attribute2process) {
 		return ['boosInterpolateBindOnce', 'boosInterpolateBindStatic', 'boosDictionary', function (boosInterpolateBindOnce, boosInterpolateBindStatic, boosDictionary) {
