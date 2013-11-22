@@ -63,6 +63,12 @@ angular.module('mySuperApp').config(function (boosDictionaryProvider) {
 });
 ```
 
+## Why all of this ?
+
+It's been a while that I have this project in mind.
+Here is the Google+ thread that started the initial bootstrap :
+https://plus.google.com/117415782545013334199/posts/bABiT5aEEq5
+
 ## Release History
 
 - 0.3.0 : initial version
