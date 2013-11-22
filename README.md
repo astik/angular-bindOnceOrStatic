@@ -71,8 +71,8 @@ https://plus.google.com/117415782545013334199/posts/bABiT5aEEq5
 
 ## What's next
 
-[] Find a better way to retrieve the initial $interpolateProvider
-[] Manage the binding outside attributes (in plain HTML content)
+- [ ] Find a better way to retrieve the initial $interpolateProvider
+- [ ] Manage the binding outside attributes (in plain HTML content)
 
 ## Release History
 
