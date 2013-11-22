@@ -1,6 +1,6 @@
 {
   "name": "angular-bindOnceOrStatic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Angular one time binding with the least impact on usual Angular as possible",
   "repository": {
     "type": "git",
