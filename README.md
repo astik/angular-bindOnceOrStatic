@@ -1,5 +1,4 @@
 # angular-bindOnceOrStatic
-==========================
 
 Angular one time binding with the least impact on usual Angular as possible.
 
@@ -39,6 +38,8 @@ The interpolation is done against the scope.
 
 Sometimes, you may want to do interpolation at loading, once and for all.
 This project allow the use of a dictionary, defined outside any scope.
+We'll use ```[[[foo.bar]]]``` to do binding without watcher at compilation time.
+The directive will look into the ```boosDictionary``` service for a property ```foo```.
 
 ## Release History
 
